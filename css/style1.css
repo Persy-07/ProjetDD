@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+
+*{
+    background-color: rgb(46, 67, 77);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.header{
+  /* background-color: rgb(57, 57, 67);
+    /*width: 1520px;*/
+    background-color: rgb(46, 67, 77);
+    height: 116px;
+   /* margin-left: 100px; rgb(125, 125, 131)*/
+    display: flex;
+    margin-right: 2px;
+    width: 1850px;
+}
+.flex{
+
+  display: flex;
+  align-items: center;
+   width: 100%;
+  justify-content: space-between;
+  /*position: relative;*/
+  font-size: 30px;
+}
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    color: brown;
+    padding-left: 95px;
+    font-family: 'Rubik Wet Paint', cursive;
+    
+}
+.rech{
+    width: 880px;
+    height: 90px;
+    margin-top: 9px;
+    margin-left:175PX;
+    padding-top: 18px;
+    position: relative;
+}
+.rech input{
+    width: 850px;
+    height: 60px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(234, 231, 231);
+    border-radius: 0px;
+    font-size: 19px;
+}
+.rech button{
+    background-color: whitesmoke;
+    position: absolute;
+    right: 30px;
+    bottom: 39px;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 50px;
+    height: 40px;
+    font-size: 40px;
+    border: transparent;
+}
+.rech button i{
+    background-color: whitesmoke;
+    color:rgb(195, 23, 23) ;
+}
+
+
+.navbar{
+    display: flex;
+    margin-right: 100px;
+}
+.navbar h2{
+    font-size: 20px;
+}
+
+.bar1{
+    color: white;
+    text-decoration: none;
+    margin-left:24px;
+    width: 149px;
+    font-size: 30px;
+    font-size: 30px;
+}
+.bar1 h2{
+    font-size: 22px;
+}
+.bar1 i{
+    margin-left: 38px;
+    color: white;
+}
+.bar2 i{
+    margin-left: 3px;
+    color: white;
+}
+.bar2 h2{
+    font-size: 22px;
+}
+.bar2{
+    color: white;
+    text-decoration: none;
+    margin-left:36px;
+    width: 110px;
+    position: relative;
+    font-size: 30px;
+}
+.bar .bara{
+   padding-left: 16px;
+}
+
+
+.heade{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 10px;
+    margin-right: 100px;
+    height: 66px;
+    background-color: rgb(31, 40, 44);
+    width: 100%;
+    /*border-bottom: 2px solid brown  width: 2200px;; 
+    border-top: 2px solid brown;*/
+}
+.hea{
+  background-color: rgb(31, 40, 44) ;
+  margin-top: 4px;
+  color: whitesmoke ;
+  width: 440px;
+  height: 48px;
+  text-align: center;
+  padding-bottom: 14px;
+  border-right: 0.5px solid whitesmoke;
+}
+.hea h2{
+    
+    background-color: rgb(31, 40, 44) ;
+}
+.main{
+    margin-top: 9px;
+    width: 1800px;
+   
+   /*background-color: rgb(234, 231, 231) ;*/
+}
+.main1{
+    height: 565px;
+    position:relative;
+}
+.main2{
+    position: absolute;
+    background: transparent;
+    
+    top: 10px;
+    left: 180px;
+    padding: 10px auto;
+}
+.main2 h2{
+    background: transparent;
+    color: brown;
+    font-weight: bold;
+    font-size: 90px;
+    height: 30px;
+}
+.main2 p{
+    color: whitesmoke;
+    font-size: 50px;
+    background: transparent;
+    
+}
+.main2 span{
+    color: whitesmoke;
+    background-color: brown;
+    font-weight: bold;
+}
+.btn{
+    position: absolute;
+    top: 340px;
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    left: 370px;
+    color: #fff;
+    font-size: 28px;
+    padding-top: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main4{
+    display: flex;
+    margin-left: 0px;
+    padding-left: 40px;
+    margin-right: 50px;
+    height: 66px;
+    
+    width: 100%;
+    margin-bottom: 20px;
+}
+.hea2{
+    padding-left: 5px;
+    padding-bottom: 14px;
+    width: 390px;
+    height: 60px;
+    margin-top: 4px;
+    display: flex;
+    margin-left: 8px;
+}
+
+.hea2 h4{
+    color: whitesmoke ;
+    margin-left: 8px;
+    text-align: center;
+   
+    font-size: 20px;
+}
+.hea2 i{
+    color: brown;
+    margin-right: 9px;
+    margin-top: 18px;
+}    
+
+.fection{
+    padding-top: 59px;
+  width:   100%;
+}
+.footer{
+    background-color: rgb(31, 40, 44);
+}
+.footer .fection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    padding-left: 190px;
+    align-items: flex-start;
+}
+.footer .fection .box h3{
+    font-size: 27px;
+    color: whitesmoke;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.footer .fection .box a{
+    text-transform: uppercase;
+    display: block;
+    margin: 15px 0;
+    font-size: 18px;
+    color: brown;
+    text-decoration: none;
+}
+.footer .fection .box p{
+    display: block;
+    margin: 15px 0;
+    font-size: 20px;
+    color: var(--light-color);
+}
+.footer .fection .box a i{
+    padding-right: 12px;
+    color: var(--main-color);
+    transition: .4s linear;
+    
+}
+.boxe {
+    display: flex;
+}
+
+.footer .fection .box a:hover{
+    color: var(--main-color);
+}
+.footer .fection .box a:hover i{
+    padding-right: 20px;
+}
+.footer .bas{
+    text-align: center;
+    padding: 26px 24px;
+    border-top: var(--border);
+    font-size: 24px;
+    color: var(--black);
+    font-weight: bold;
+}
